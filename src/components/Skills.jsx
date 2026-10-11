@@ -3,20 +3,20 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
-      skills: ["Python", "JavaScript", "C#"]
+      title: "Quality Assurance & Testing",
+      skills: ["Manual Testing", "Automation (Playwright)", "API Testing (Postman)", "Test Case Design", "Bug Tracking & Reporting", "STLC & SDLC"]
+    },
+    {
+      title: "Programming & Database",
+      skills: ["JavaScript / ES6+", "Python", "C#", "SQL / MySQL"]
     },
     {
       title: "Web Technologies",
-      skills: ["HTML", "Tailwind CSS", "React.js", "Node.js", "Express.js"]
-    },
-    {
-      title: "Databases",
-      skills: ["MySQL"]
+      skills: ["React.js", "Node.js", "Express.js", "HTML5 & Tailwind CSS", "RESTful APIs"]
     },
     {
       title: "Tools & Infrastructure",
-      skills: ["Visual Studio Code", "Visual Studio", "Git & GitHub", "XAMPP", "AWS Academy", "Postman", "Playwright", "Cisco Packet Tracer"]
+      skills: ["Git & GitHub", "Visual Studio Code", "Visual Studio", "AWS Academy", "Cisco Packet Tracer", "XAMPP"]
     }
   ];
 

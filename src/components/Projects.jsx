@@ -4,33 +4,33 @@ const Projects = () => {
   const projects = [
     {
       title: "Urban Harvest Hub",
-      technologies: "React.js, Node.js, Express.js, MySQL",
-      description: "Developed a full-stack web application connecting farmers and consumers. Implemented secure user authentication and role-based access. Designed and managed a MySQL database, implemented backend APIs and notification features, and created manual test cases.",
+      technologies: "React.js, Node.js, Express.js, MySQL, Manual Testing",
+      description: "Full-stack web platform connecting farmers and consumers. Implemented secure authentication and role-based access control. Designed relational database schemas and REST APIs. Created comprehensive test cases covering authentication flows, order processes, and UI validation.",
       link: "https://github.com/345masha",
       hostedLink: "https://urbanhub-woad.vercel.app/"
     },
     {
-      title: "Inventory Management System",
-      technologies: "C#, Windows Forms",
-      description: "Developed a desktop application using the MVC architecture. Implemented login authentication, Role-based access control (RBAC), and essential inventory management features.",
-      link: "https://github.com/ArchitectureLogic/Inventory-Management-System.git"
-    },
-    {
       title: "Nestle Business Innovation Project",
-      technologies: "Visual Studio, HTML, MySQL, Playwright",
-      description: "Collaborated with a team to solve a real-world business challenge presented by Nestle. Conducted research, proposed an IT-based solution, and presented to industry professionals. Created and checked manual test cases automatically using Playwright.",
+      technologies: "Visual Studio, HTML, MySQL, Playwright (Automation Testing)",
+      description: "Collaborated in an industry challenge presented by Nestle to develop an IT-driven business solution. Designed manual test cases and automated end-to-end regression testing using Playwright, verifying functionality and edge cases prior to final presentation.",
       link: "https://github.com/chirani-kohomban/Nestle-Smartflow.git"
     },
     {
-      title: "Shipping Network Simulation",
-      technologies: "C#",
-      description: "Implemented Dijkstra's Algorithm to determine the shortest delivery paths. Developed weighted graph data structures, simulated traffic congestion using dynamic edge weights, and applied greedy algorithms for route optimization."
+      title: "Employee Training Management System",
+      technologies: "React, Vite, Node.js, Express.js, MySQL, Postman (API Testing)",
+      description: "Centralized employee training platform digitizing training operations for Amex. Features role-based dashboards, session scheduling, file uploads via Multer, and feedback systems. Validated backend REST endpoints with Postman and performed end-to-end user acceptance testing.",
+      link: "https://github.com/345masha/EmployeeManagementSystem.git" 
     },
     {
-      title: "Employee Training Management System",
-      technologies: "React, Vite, Node.js, Express.js, MySQL",
-      description: "Developed a centralized employee training management system for Amex to digitize training workflows. Implemented secure role-based access control for Administrators, Trainers, and Trainees. Features include training program scheduling, secure file uploads using Multer, and a feedback collection system.",
-      link: "https://github.com/345masha/EmployeeManagementSystem.git" 
+      title: "Inventory Management System",
+      technologies: "C#, Windows Forms, MVC Architecture",
+      description: "Desktop application following MVC architecture. Implemented role-based access control (RBAC), user authentication, and inventory tracking modules, rigorously tested for data consistency and unauthorized access prevention.",
+      link: "https://github.com/ArchitectureLogic/Inventory-Management-System.git"
+    },
+    {
+      title: "Shipping Network Simulation",
+      technologies: "C#, Data Structures & Algorithms",
+      description: "Routing simulation utilizing Dijkstra's Algorithm and weighted graph data structures. Modeled traffic congestion with dynamic edge weights and executed test scenarios to benchmark greedy algorithms against route optimization performance."
     }
   ];
 
